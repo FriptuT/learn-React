@@ -1,15 +1,16 @@
 import Player from "./components/Player";
+import GameBoard from "./components/GameBoard";
 
 function App() {
   return (
     <main>
       <div id="game-container">
         <ol id="players">
-          <Player name="NET" symbol="X" />
-          <Player name="NuGet" symbol="O" />
+          <Player initialName="NET" symbol="X" />
+          <Player initialName="ASP" symbol="O" />
         </ol>
         
-        GAME BOARD
+        <GameBoard />
       </div>
       LOG
     </main>
